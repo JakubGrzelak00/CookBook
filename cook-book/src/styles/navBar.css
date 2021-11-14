@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+.logo {
+  font-family: Sofia, cursive;
+  text-align: center;
+  font-size: 35px;
+  margin: 0;
+  margin-left: 1%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+  margin-bottom: 3%;
+
+  -webkit-box-shadow: 1px 8px 24px -14px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 1px 8px 24px -14px rgba(66, 68, 90, 1);
+  box-shadow: 1px 8px 24px -14px rgba(66, 68, 90, 1);
+}
+
+.link-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.link {
+  margin: 0;
+  margin-right: 15px;
+  font-size: 17px;
+}

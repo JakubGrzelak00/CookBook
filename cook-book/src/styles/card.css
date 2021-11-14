@@ -1,0 +1,17 @@
+.card-box {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+
+  -webkit-box-shadow: 3px 6px 28px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 3px 6px 28px 0px rgba(66, 68, 90, 1);
+  box-shadow: 3px 6px 28px 0px rgba(66, 68, 90, 1);
+
+  margin: 1%;
+}
+.title {
+  font-size: 20px;
+}
