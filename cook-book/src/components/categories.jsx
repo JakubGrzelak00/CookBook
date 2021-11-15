@@ -20,6 +20,7 @@ const Categories = () => {
           key={category.title}
           title={category.title}
           imageID={category.imageID}
+          linkTo={"Recepies/" + category.title}
         ></Card>
       ))}
     </div>

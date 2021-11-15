@@ -1,15 +1,16 @@
 import "../../styles/card.css";
-const Card = ({ imageID, title }) => {
+import { Link } from "react-router-dom";
+const Card = ({ imageID, title, linkTo }) => {
   return (
     <div className="card-box">
-      <div>
+      <Link to={linkTo}>
         <img
           src={
             "https://spoonacular.com/recipeImages/" + imageID + "-312x231.jpg"
           }
           alt=""
         />
-      </div>
+      </Link>
       <p className="title">{title}</p>
     </div>
   );
